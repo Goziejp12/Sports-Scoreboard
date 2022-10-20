@@ -1,0 +1,67 @@
+body {
+    background: #1B244A;
+}
+
+.base {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    color: #EEEEEE;
+}
+
+#home {
+font-family: Verdana;
+font-size: 40px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+#guest {
+font-family: Verdana;
+font-size: 40px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+@font-face {
+    font-family: cursedTimerfont;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+#home-point {
+    font-family: cursedTimerfont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    background-color: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    margin-left: 82px;
+    margin-top: 125px;
+}
+
+#guest-point {
+    font-family: cursedTimerfont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    background-color: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    margin-left: 82px;
+    margin-top: 125px;
+}
