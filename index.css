@@ -7,20 +7,9 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 h1 {
-    color: #EEEEEE;
-}
-
-#home {
-font-family: Verdana;
-font-size: 40px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: center;
-}
-
-#guest {
+color: #EEEEEE;
 font-family: Verdana;
 font-size: 40px;
 font-weight: 700;
@@ -31,7 +20,7 @@ text-align: center;
 
 @font-face {
     font-family: cursedTimerfont;
-    src: url("CursedTimerUlil-Aznm.ttf");
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
 }
 
 #home-point {
@@ -46,8 +35,7 @@ text-align: center;
     border-radius: 5px;
     width: 155px;
     height: 120px;
-    margin-left: 82px;
-    margin-top: 125px;
+    margin: 21px 26px 26px 0;
 }
 
 #guest-point {
@@ -62,6 +50,21 @@ text-align: center;
     border-radius: 5px;
     width: 155px;
     height: 120px;
-    margin-left: 82px;
-    margin-top: 125px;
+    margin: 21px 26px 26px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: cursedTimerfont;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
 }
