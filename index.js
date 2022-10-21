@@ -2,6 +2,7 @@ let homeCount = 0
 let guestCount = 0
 let homePt = document.getElementById("home-point")
 let guestPt = document.getElementById("guest-point")
+let checkResult = document.getElementById("result")
 
 function btn1() {
     homeCount += 1
@@ -31,4 +32,25 @@ function guestBtn2() {
 function guestBtn3() {
     guestCount += 3
     guestPt.textContent = guestCount
+}
+
+function reset () {
+    guestCount = 0
+    homeCount = 0
+    homePt.textContent = 0
+    guestPt.textContent = 0
+}
+
+function checkWinner() {
+    if (homeCount > guestCount) {
+        return checkResult.textContent = "Home Team winning"
+    }
+
+    else if (guestCount > homeCount) {
+    return checkResult.textContent = "Guest Team winning"
+    }
+
+    else {
+        return checkResult.textContent
+    }
 }

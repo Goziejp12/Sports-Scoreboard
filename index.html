@@ -12,19 +12,26 @@
             <div>
                 <h2 id="home-point">0</h2>
                 <div>
-                    <button onclick="btn1()">+1</button>
-                    <button onclick="btn2()">+2</button>
-                    <button onclick="btn3()">+3</button>
+                    <button id="btn1" onclick="btn1()">+1</button>
+                    <button id="btn1" onclick="btn2()">+2</button>
+                    <button id="btn1" onclick="btn3()">+3</button>
                 </div>
             </div>
             <div>
                 <h2 id="guest-point">0</h2>
                 <div>
-                    <button onclick="guestBtn1()">+1</button>
-                    <button onclick="guestBtn2()">+2</button>
-                    <button onclick="guestBtn3()">+3</button>
+                    <button id="btn1" onclick="guestBtn1()">+1</button>
+                    <button id="btn1" onclick="guestBtn2()">+2</button>
+                    <button id="btn1" onclick="guestBtn3()">+3</button>
                 </div>
             </div>
+        </div>
+        <div>
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+        <div class="final">
+            <button id="check-winner" onclick="checkWinner()">Check Winner</button>
+            <p id="result">No Team win</p>
         </div>
         <script src="index.js"></script>
     </body>

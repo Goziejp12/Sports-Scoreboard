@@ -22,6 +22,10 @@ text-align: center;
     font-family: cursedTimerfont;
     src: url("fonts/CursedTimerUlil-Aznm.ttf");
 }
+@font-face {
+    font-family: winnerfont;
+    src: url("fonts/Winner.otf");
+}
 
 #home-point {
     font-family: cursedTimerfont;
@@ -58,7 +62,7 @@ text-align: center;
     justify-content: space-around;
 }
 
-button {
+#btn1 {
     font-family: cursedTimerfont;
     color: #9AABD8;
     background-color: #1B244A;
@@ -67,4 +71,40 @@ button {
     box-sizing: border-box;
     width: 45px;
     height: 45px;
+}
+
+#reset {
+    font-family: cursedTimerfont;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+    display: block;
+    margin: 26px auto;
+}
+
+#check-winner {
+    font-family: cursedTimerfont;
+    color: #F94F6D;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    height: 45px;
+    width: 100px;
+}
+
+#result {
+    font-family: winnerfont;
+    font-size: xxx-large;
+    text-shadow: 0 0 3px #9AABD8;
+    color: #F94F6D;
+    background-color: #1B244A;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
