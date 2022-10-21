@@ -65,34 +65,37 @@ text-align: center;
 #btn1 {
     font-family: cursedTimerfont;
     color: #9AABD8;
+    font-size: xx-large;
     background-color: #1B244A;
     border: 2px solid #9AABD8;
     border-radius: 5px;
     box-sizing: border-box;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
 }
 
 #reset {
     font-family: cursedTimerfont;
+    font-size: xx-large;
     color: #9AABD8;
     background-color: #1B244A;
     border: 2px solid #9AABD8;
     border-radius: 5px;
-    height: 45px;
-    width: 100px;
+    height: 55px;
+    width: 200px;
     display: block;
     margin: 26px auto;
 }
 
 #check-winner {
     font-family: cursedTimerfont;
+    font-size: xx-large;
     color: #F94F6D;
     background-color: #1B244A;
     border: 2px solid #9AABD8;
     border-radius: 5px;
     height: 45px;
-    width: 100px;
+    width: 300px;
 }
 
 #result {
