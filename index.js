@@ -1,39 +1,34 @@
-let count = 0
+let homeCount = 0
+let guestCount = 0
 let homePt = document.getElementById("home-point")
 let guestPt = document.getElementById("guest-point")
+
 function btn1() {
-    count += 1
-    homePt.textContent = count
-    guestPt.textContent = 0
+    homeCount += 1
+    homePt.textContent = homeCount
 }
 
 function btn2() {
-    count += 2
-    homePt.textContent = count
-    guestPt.textContent = 0
+    homeCount += 2
+    homePt.textContent = homeCount
 }
 
 function btn3() {
-    count += 3
-    homePt.textContent = count
-    guestPt.textContent = 0
+    homeCount += 3
+    homePt.textContent = homeCount
 }
 
 function guestBtn1() {
-    count += 1
-    guestPt.textContent = count
-    homePt.textContent = 0
+    guestCount += 1
+    guestPt.textContent = guestCount
 }
 
 function guestBtn2() {
-    count += 2
-    guestPt.textContent = count
-    homePt.textContent = 0
+    guestCount += 2
+    guestPt.textContent = guestCount
 }
 
 function guestBtn3() {
-    count += 3
-    guestPt.textContent = count
-    homePt.textContent = 0
+    guestCount += 3
+    guestPt.textContent = guestCount
 }
-
