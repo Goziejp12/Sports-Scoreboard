@@ -39,6 +39,7 @@ function reset () {
     homeCount = 0
     homePt.textContent = 0
     guestPt.textContent = 0
+    checkResult.textContent = " "
 }
 
 function checkWinner() {
@@ -48,6 +49,10 @@ function checkWinner() {
 
     else if (guestCount > homeCount) {
     return checkResult.textContent = "Guest Team winning"
+    }
+
+    else if (homeCount == guestCount) {
+        return checkResult.textContent = "Match Draw"
     }
 
     else {
